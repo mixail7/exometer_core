@@ -86,15 +86,11 @@ preset_defaults() ->
 load_defaults() ->
     E = exometer_util:get_env(defaults, []),
     do_load_defaults(env, get_predef(E)),
-    [do_load_defaults(Src, get_predef(D))
-     || {Src,D} <- setup:find_env_vars(exometer_defaults)],
     ok.
 
 load_predefined() ->
     E = exometer_util:get_env(predefined, []),
     do_load_predef(env, get_predef(E)),
-    [do_load_predef(Src, get_predef(P))
-     || {Src, P} <- setup:find_env_vars(exometer_predefined)],
     ok.
 
 register_application(App) ->
