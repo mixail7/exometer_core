@@ -5,12 +5,10 @@
        {ref,"0948c5f7a2221cc7c4975d042b13c84bb9387517"}},
   0},
  {<<"hut">>,{pkg,<<"hut">>,<<"1.2.1">>},0},
- {<<"parse_trans">>,
-  {git,"git://github.com/uwiger/parse_trans.git",
-       {ref,"f22fbf4982bc541518d4a9b3ad305810460724e5"}},
-  0}]}.
+ {<<"parse_trans">>,{pkg,<<"parse_trans">>,<<"3.3.0">>},0}]}.
 [
 {pkg_hash,[
  {<<"bear">>, <<"E95FCA1627CD9E15BAF93CE0A52AFF16917BAF325F0EE65B88CD715376CD2344">>},
- {<<"hut">>, <<"08D46679523043424870723923971889E8A34D63B2F946A35B46CF921D1236E7">>}]}
+ {<<"hut">>, <<"08D46679523043424870723923971889E8A34D63B2F946A35B46CF921D1236E7">>},
+ {<<"parse_trans">>, <<"09765507A3C7590A784615CFD421D101AEC25098D50B89D7AA1D66646BC571C1">>}]}
 ].
