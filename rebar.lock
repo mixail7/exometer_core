@@ -21,8 +21,4 @@
  {<<"parse_trans">>,
   {git,"git://github.com/uwiger/parse_trans.git",
        {ref,"a210adafdfbb904d156d8f22abd5fb58fc17de1e"}},
-  0},
- {<<"setup">>,
-  {git,"git://github.com/uwiger/setup.git",
-       {ref,"76124131ac11bdb0112fb47a244784e152531dad"}},
   0}].
