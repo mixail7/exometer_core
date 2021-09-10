@@ -11,3 +11,5 @@ rel/example_project
 .rebar
 logs
 rebar3.crashdump
+.idea
+.tool-versions
